@@ -4,6 +4,10 @@ A simple python script that will read dates from a JSON file and emails you a re
 
 I got annoyed that I kept forgetting to check when my bins needed to go out so I built this script that will send me an email reminder the night before they are due to go out. No excuses to miss the collection now!
 
+
+!!This is no longer relevant, i've removed smtplib and started using Yagmail. I'll update this soon.
+
+
 The code is extremly simple and easy to follow but it works by using smtplib to send an email to a specified email address. The email is triggered by checking today's date against an array of dates in a JSON file. The dates in the JSON file are added manually. 
 
 The name of my JSON file is "binschedule.json" but you can name it whatever you want. If you do change it just make sure to update this part of the code.
